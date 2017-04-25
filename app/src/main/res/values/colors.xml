@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryLight">#81D4FA</color>
+    <color name="colorPrimary">#039BE5</color>
+    <color name="colorPrimaryDark">#0277bb</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bt_color">#3F51B5</color>
+    <color name="bt_text_color">#ffffff</color>
+    <color name="vocabulary_item_background_enword">#E1E0DE</color>
+    <color name="colorGray">#777777</color>
+    <color name="colorGrayDark">#555555</color>
+    <color name="colorBlack">#111111</color>
+</resources>

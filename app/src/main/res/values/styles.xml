@@ -1,0 +1,47 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppLightTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+    <style name="ImageActivityTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorBlack</item>
+        <item name="colorPrimaryDark">@color/colorBlack</item>
+        <item name="colorAccent">@color/colorBlack</item>
+    </style>
+
+    <style name="BtSmallTheme">
+        <item name="android:textColor">@color/bt_text_color</item>
+        <item name="android:textSize">@dimen/bt_small_text</item>
+        <item name="android:background">@drawable/bt_corners_bg</item>
+        <item name="android:layout_height">@dimen/bt_small_height</item>
+        <item name="android:layout_width">@dimen/bt_small_width</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_marginLeft">@dimen/bt_small_margin</item>
+    </style>
+
+    <style name="BtShowTheme">0
+        <item name="android:layout_marginTop">3dp</item>
+        <item name="android:layout_height">@dimen/bt_show_height</item>
+        <item name="android:layout_width">@dimen/bt_show_height</item>
+    </style>
+
+    <style name="EtTheme">
+        <item name="android:textColor">@color/colorGrayDark</item>
+        <item name="android:textColorHint">@color/colorGray</item>
+        <item name="android:textCursorDrawable">@drawable/color_cusor</item>
+        <item name="android:backgroundTint">@color/colorPrimary</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="AppLightTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="MainActivityTheme" ></style>
+    <style name="AppLightTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppLightTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
